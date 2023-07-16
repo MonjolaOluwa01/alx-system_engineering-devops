@@ -1,0 +1,56 @@
+.contact{
+    align-items: center;
+    justify-items: center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.letterpic{
+    padding: 50px;
+}
+.formControl{
+    background: rgb(41, 80, 253);
+    display: grid;
+    border-radius: 10px;
+    padding: 30px;
+}
+.form{
+    padding-bottom: 30px;
+   
+    
+}
+input{
+   border-style: none;
+    height: 50px;
+    border-radius: 10px;
+    margin:0 10px  ;
+    /* width: 100%; */
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+button{
+     background:  hsl(244, 96%, 45%);
+     color: white;
+     font: 5px;
+     font-weight: 400px;
+     line-height: 5vh;
+     border-radius: 10px;
+     /* width: 100%; */
+} 
+button:hover{
+    background: yellow;
+    color: rgb(4, 4, 63);
+
+}
+small{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:768px) and (min-width:350px){
+    .letterpic{
+        height: 450px;
+        width: 500px;
+    }
+}
