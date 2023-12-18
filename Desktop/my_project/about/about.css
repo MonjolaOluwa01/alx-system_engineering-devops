@@ -1,0 +1,30 @@
+   .about{
+    padding-top: 30px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+   }
+   .vision{
+       padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+   }
+   p, h1{
+       color:rgb(6, 6, 71);
+   }
+   
+   @media only screen and (max-width:768px) and (min-width:350px){
+        .about{
+            justify-content: center;
+            width: 400px;
+            height: 250px;
+        }
+        .vision{
+            justify-content: center;
+            width: 450px;
+            height: 300px;
+            padding-right: 20px;
+
+    
+        }
+    }

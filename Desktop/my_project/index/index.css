@@ -1,0 +1,236 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+
+    background-color: rgb(11, 9, 27);
+    height: 10vh;
+    color:  rgb(255, 217, 0);
+}
+.nav-item{
+    padding-left: 50px;
+    color:whitesmoke;
+}
+.nav-item:hover{
+    color: rgb(4, 4, 80);
+    opacity: 70%;
+    text-decoration: underline
+}
+.nav-link{
+    margin-left: 20px;
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+header{
+    background-size: contain;
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.top{
+    padding-top:100px; 
+    padding-left: 100px;
+}
+.home{
+    color:rgb(11, 9, 27);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left:30px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.mid{
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+.services{
+    justify-self: center;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid white;
+    border-radius: 50px;
+    color: aliceblue;
+    text-decoration:none;
+
+    
+}
+
+.service{
+    background-color:rgb(0, 0, 10);
+    padding: 40px;
+    
+}
+.services:hover{
+    color: blue;
+    background:  rgb(255, 217, 0);
+    text-decoration: none;
+    border-style: none;
+}
+.cbs{
+    justify-content: left;
+    text-align:left;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 30px;
+    animation: ease-in;
+    animation-delay: 5000ms;
+    animation-duration: 10s;
+}
+.cob{
+    padding: 50px;
+    padding-bottom: 50px;
+}
+.abax{
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.story{
+    margin-left: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid rgb(0, 0, 10) ;
+    border-radius: 50px;
+    color: rgb(0, 0, 10) ;
+    text-decoration: none;
+}
+.story:hover{
+    color: blue;
+    background:  rgb(255, 217, 0);
+    text-decoration: none;
+    border-style: none;
+}
+.elevate{
+    padding: 50px;
+}
+.content{
+    justify-content: center;
+    align-content: center;
+   padding-top: 50px;
+   padding-bottom: 15px
+}
+.we-do{
+    background-color: rgb(10, 13, 54);
+    color: whitesmoke;
+    padding:10px;
+}
+.exp{
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left:30px;
+        font-size: 40px;
+        
+    }
+    /* p{
+        animation-delay: 3s;
+        animation-duration: 5s;
+        animation-iteration-count: 3;
+    } */
+    .ourservices{
+        text-align: center;
+    margin-left: 30px; 
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid  aliceblue;
+    border-radius: 50px;
+    color: aliceblue;
+    text-decoration:none;
+    }
+    .ourservices:hover{
+        color: blue;
+        background:  rgb(255, 217, 0);
+        text-decoration: none;
+        border-style: none;
+    }
+     .pic{
+        padding: 20px;
+    }
+    #pic{
+        padding: 30px;
+        padding-right: 30px;
+
+    }
+    /* form{
+        background:rgb(34, 33, 33);
+        margin: 30px;
+        color: whitesmoke;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+       
+    } */
+    .event{
+        background-color:rgb(7, 4, 20) ;
+        padding:30px;
+        margin-top: 30px;
+        color: white;
+    }
+    .events, .pics{
+        /* margin-left: 30px;  */
+        padding: 30px;
+    }
+    .grow {
+       padding: 30px;
+       font-weight: bolder;
+    }
+    .pics{
+        padding: 50px;
+    }
+    i{
+        background-color: rgb(3, 3, 56)
+    }
+    .animate_animated.animate_slideInLeft{
+        --animate-duration: 5s;
+        --animate-delay: 0s;
+    }
+    /* .letter:hover{
+         color: blue;
+         background:  rgb(255, 217, 0);
+         text-decoration: none;
+         border-style: none; 
+    } */
+    .form-control , .btn {
+        border-style: none;
+    }
+
+    @media only screen and (max-width:768px) and (min-width:350px){
+         .collapse{
+            background-color: black;
+        } 
+        .one, .pic{
+            width: 350px;
+            height: 233px;
+        }
+        .one{
+            padding-left: 20px;
+        }
+        /* .navbar{
+            width: 100%
+        } 
+        .we-do{
+            justify-content: center;
+            padding: 10px;
+        }
+        img{
+            padding: 10px;
+            justify-items: center;
+        }
+        
+        .container-fluid{
+            justify-content: center;
+        }
+        .navbar-brand{
+            height: 35px;
+        } */
+    
+}
+
+
+        
+   
+

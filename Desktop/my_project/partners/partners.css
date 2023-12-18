@@ -1,0 +1,61 @@
+.hpartners{
+  padding: 50px;
+  background-color:rgba(241, 206, 4, 0.801) ;
+  color: rgb(8, 8, 85);
+}
+.c{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.cbox{
+    padding-top: 70px;
+}
+.d{
+    padding: 30px;
+    text-align: center;
+}
+.meet{
+    text-align: center;
+    padding: 50px;
+}
+.e{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-position: 30px auto;
+}
+.card-title{
+    font-size: 20px;
+    font-weight:bold;
+}
+.card{
+    padding: 30px;
+    margin-top: 10px;
+    height: 800px; 
+    color: rgb(8, 8, 85);
+}
+.pcard{
+    column-count: 2;
+    background-color:rgb(26, 26, 59);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+.view{
+    border-radius: 50px;
+    border:2px solid rgb(8, 8, 85); ;
+    padding: 10px;
+    text-decoration: none;
+}
+.view:hover{
+    background: yellow;
+    color: blue;
+    border-style: none;
+
+}
+.news{
+    background-color:  rgb(8, 8, 85);
+}
+.sub{
+    color: aliceblue;
+}
